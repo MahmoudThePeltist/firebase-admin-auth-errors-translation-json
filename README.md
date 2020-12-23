@@ -2,9 +2,14 @@
 Firebase's Admin Authentication API Errors Translated for convenience of error handing.
 https://firebase.google.com/docs/auth/admin/errors
 
+## Supported languages
+ * English: `import { firebaseAuthErrorsEN } from './firebaseAuthErrorsTranslate';`
+ * Arabic: `import { firebaseAuthErrorsAR } from './firebaseAuthErrorsTranslate';`
+ * French: `import { firebaseAuthErrorsFR } from './firebaseAuthErrorsTranslate';`
+   
 ## Example
     import auth from '@react-native-firebase/auth';
-    import { firebaseAuthErrorsAR } from '../../components/AuthComponents/firebaseAuthErrorsTranslate';
+    import { firebaseAuthErrorsAR } from './firebaseAuthErrorsTranslate';
    
     ...
    
